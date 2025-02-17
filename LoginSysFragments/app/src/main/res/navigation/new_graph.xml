@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/new_graph.xml"
+    app:startDestination="@id/recyclerListViewFragment">
+
+    <fragment
+        android:id="@+id/toastAlertFragment2"
+        android:name="com.example.loginsysfragments.fragments.ToastAlertFragment"
+        android:label="fragment_toast_alert"
+        tools:layout="@layout/fragment_toast_alert" />
+    <fragment
+        android:id="@+id/listViewFragment2"
+        android:name="com.example.loginsysfragments.fragments.ListViewFragment"
+        android:label="fragment_list_view"
+        tools:layout="@layout/fragment_list_view" />
+    <fragment
+        android:id="@+id/spinnerFragment"
+        android:name="com.example.loginsysfragments.fragments.SpinnerFragment"
+        android:label="fragment_spinner"
+        tools:layout="@layout/fragment_spinner" />
+    <fragment
+        android:id="@+id/baseAdaptorFragment"
+        android:name="com.example.loginsysfragments.fragments.BaseAdaptorFragment"
+        android:label="fragment_base_adaptor"
+        tools:layout="@layout/fragment_base_adaptor" />
+    <fragment
+        android:id="@+id/recyclerListViewFragment"
+        android:name="com.example.loginsysfragments.fragments.RecyclerListViewFragment"
+        android:label="fragment_recycler_list_view"
+        tools:layout="@layout/fragment_recycler_list_view" />
+</navigation>

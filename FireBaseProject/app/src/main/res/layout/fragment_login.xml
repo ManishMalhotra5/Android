@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_margin="10sp"
+    android:padding="10sp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textStyle="bold"
+        android:textSize="45sp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/emailLable"
+        android:textSize="20sp"
+        android:layout_marginStart="5sp"
+        />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/placeholderLoginEmail"
+        android:inputType="textEmailAddress"
+        android:imeOptions="actionNext"
+        android:padding="10sp"
+        android:textSize="25sp"
+        android:layout_marginStart="10sp"
+        android:layout_marginEnd="10sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/passLable"
+        android:textSize="20sp"
+        android:layout_marginStart="5sp"
+        />
+
+    <EditText
+        android:id="@+id/etPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/placeholderSignUpPass"
+        android:padding="10sp"
+        android:inputType="text"
+        android:textSize="25sp"
+        android:layout_marginBottom="10sp"
+        android:imeOptions="actionDone"
+        android:layout_marginStart="10sp"
+        android:layout_marginEnd="10sp"
+        />
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textSize="25sp"
+        android:layout_margin="15sp"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/signUpLabel"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:id="@+id/tvSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/signUp"
+            android:textSize="20sp"
+
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

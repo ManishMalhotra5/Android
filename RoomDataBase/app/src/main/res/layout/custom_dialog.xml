@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="10sp"
+    android:padding="10sp"
+    >
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enterName"
+        />
+    <EditText
+        android:id="@+id/etRollNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enterRollNo"
+    />
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        />
+
+
+</LinearLayout>

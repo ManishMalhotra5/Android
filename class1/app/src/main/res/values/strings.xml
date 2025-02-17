@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">class1</string>
+    <string name="login">Login</string>
+    <string name="placeholderLoginName">Enter your Name</string>
+    <string name="placeholderLoginEmail">Enter your Email</string>
+    <string name="nameLable">Name</string>
+    <string name="emailLable">Email</string>
+    <string name="signUpLabel">You dont have an account?</string>
+    <string name="signUp">Sign Up</string>
+    <string name="placeholderSignUpPass">Enter Your Password</string>
+    <string name="passLable">Password</string>
+    <string name="loginLabel">You already have an account?</string>
+    <string name="home">Welcome to Homepage</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

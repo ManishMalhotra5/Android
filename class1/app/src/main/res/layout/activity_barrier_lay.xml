@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_margin="10sp"
+    android:padding="10sp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BarrierLayActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guide_ver_4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.4"
+        />
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:constraint_referenced_ids="tvLeft,tvRight"
+        app:barrierDirection="bottom"
+        />
+
+    <TextView
+        android:id="@+id/tvLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Something"
+        android:textSize="25sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guide_ver_4"
+        />
+    <TextView
+        android:id="@+id/tvRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kjbdkjb bchldcldjclkd ddklnclksdc  fdfdfddsknclksdnclds csdknclksdkncldsc sdcnlsdknclkdsc dskcnlsdknclsd csdnclksdnclksdc dksclsdknclksd csdkjbclksdnclsd cdsbclsdknc "
+        android:textSize="25sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/guide_ver_4"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Something else"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="25sp"
+        app:layout_constraintTop_toBottomOf="@id/barrier"
+        app:layout_constraintEnd_toStartOf="@+id/guide_ver_4"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.loginsysfragments.fragments.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.example.loginsysfragments.fragments.SignUpFragment"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.loginsysfragments.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/otpFragment"
+        android:name="com.example.loginsysfragments.fragments.OtpFragment"
+        android:label="fragment_otp"
+        tools:layout="@layout/fragment_otp" />
+    <fragment
+        android:id="@+id/toastAlertFragment"
+        android:name="com.example.loginsysfragments.fragments.ToastAlertFragment"
+        android:label="fragment_toast_alert"
+        tools:layout="@layout/fragment_toast_alert" />
+
+
+</navigation>

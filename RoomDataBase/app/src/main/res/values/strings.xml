@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RoomDataBase</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enterName">Enter your Name</string>
+    <string name="enterRollNo">Enter your Roll No</string>
+    <string name="submit">Submit</string>
+    <string name="name">Your Name</string>
+    <string name="rollNo">Your Roll No</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+</resources>

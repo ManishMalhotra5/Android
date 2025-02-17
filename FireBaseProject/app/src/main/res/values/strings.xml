@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">FireBaseProject</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">Login</string>
+    <string name="emailLable">Email</string>
+    <string name="placeholderLoginEmail">Enter your Email</string>
+    <string name="passLable">Password</string>
+    <string name="placeholderSignUpPass">Enter your password</string>
+    <string name="signUpLabel">Don\'t have an account? </string>
+    <string name="signUp">SignUp</string>
+    <string name="nameLable">Name</string>
+    <string name="placeholderLoginName">Enter your Name</string>
+    <string name="loginLabel">Already have an account?</string>
+    <string name="rollNo">Roll No.</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+</resources>

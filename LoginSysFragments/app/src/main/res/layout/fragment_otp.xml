@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".fragments.OtpFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter you Email"
+        android:padding="10sp"
+        android:layout_margin="10sp"
+        android:imeOptions="actionNext"
+        />
+
+    <TextView
+        android:id="@+id/tvOtpLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Enter your OTP"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <EditText
+            android:id="@+id/etOtp1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10sp"
+            android:inputType="number"
+            android:textSize="20sp"
+            android:imeOptions="actionNext"
+            />
+        <EditText
+            android:id = "@+id/etOtp2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10sp"
+            android:inputType="number"
+            android:imeOptions="actionNext"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/etOtp3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10sp"
+            android:inputType="number"
+            android:imeOptions="actionNext"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/etOtp4"
+            android:inputType="number"
+            android:imeOptions="actionDone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10sp"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="20sp"
+        />
+</LinearLayout>

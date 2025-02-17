@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_margin="10sp"
+         android:id="@+id/V1"
+        >
+        <View
+            android:layout_width="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_orange_light"
+            />
+        <View
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_centerInParent="true"
+            android:background="@color/black"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_margin="10sp"
+        android:id="@+id/V2"
+        android:layout_centerHorizontal="true"
+        >
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_blue_dark"
+            />
+        <View
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_centerInParent="true"
+            android:background="@color/black"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="10dp"
+        >
+        <View
+            android:id="@+id/V3"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:background="@android:color/holo_red_dark"
+            />
+        <View
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_centerInParent="true"
+            android:background="@color/black"
+            />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        >
+        <View
+            android:id="@+id/V4"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:background="@android:color/darker_gray"
+            />
+        <View
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_centerInParent="true"
+            android:background="@color/black"
+            />
+    </RelativeLayout>
+
+   <RelativeLayout
+       android:layout_width="100sp"
+       android:layout_height="100sp"
+       android:layout_centerVertical="true"
+       android:layout_centerHorizontal="true"
+       android:layout_margin="10dp"
+       >
+       <View
+           android:id="@+id/V5"
+           android:background="@android:color/holo_purple"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           />
+       <View
+           android:layout_width="30sp"
+           android:layout_height="30sp"
+           android:layout_centerInParent="true"
+           android:background="@color/black"
+           />
+
+   </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_margin="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        >
+        <View
+            android:id="@+id/V6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_green_light"
+            />
+        <View
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_centerInParent="true"
+            android:background="@color/black"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_margin="10sp"
+        android:layout_alignParentBottom="true"
+        >
+
+        <View
+            android:id="@+id/V7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background= "@android:color/holo_blue_dark"
+            />
+        <View
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_centerInParent="true"
+            android:background="@color/black"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:layout_alignParentBottom="true"
+        >
+        <View
+            android:id="@+id/V8"
+            android:background="@android:color/holo_purple"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+        <View
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_centerInParent="true"
+            android:background="@color/black"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        >
+        <View
+            android:id="@+id/V9"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:background="@android:color/holo_blue_dark"
+            />
+        <View
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_centerInParent="true"
+            android:background="@color/black"
+            />
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
